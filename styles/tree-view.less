@@ -14,7 +14,13 @@
   color: @text-color;
   background-color: @tree-view-background-color;
 
-  .list-item.selected {
-    color: @text-color-selected;
-  }
+    .list-item {
+        color: @tree-view-color;
+    }
+
+    .list-item.selected, .list-item.selected::before {
+        color: @tree-view-list-item-selected-color;
+        background-color: @tree-view-list-item-selected-back-color;
+    }
 }
+//file entry list-item status-modified selected
