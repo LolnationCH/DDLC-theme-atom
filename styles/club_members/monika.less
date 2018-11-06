@@ -4,8 +4,8 @@
 // -------------------
 // UI
 // -------------------
-@theme-ui-color-1: #497DE7; // Main color for background, component selected
-@theme-ui-color-2: fade(#120021, 40%); // Main color for background
+@theme-ui-color-1: #49e759; // Main color for background, component selected
+@theme-ui-color-2: fade(#062100, 40%); // Main color for background
 @theme-ui-color-3: #ffffff; // Main color for text
 
 // Base colors
@@ -82,10 +82,12 @@
 @theme-syntax-main-darken-color: #20491F;
 
 // Specific
-@theme-main-syntax-text-color: #FF5370;
+@theme-main-syntax-text-color: #b8ff53;
 @theme-main-syntax-cursor-color: #8BD9D1;
-@theme-main-syntax-selection-color: lighten(#62333b, 10%);
-@theme-main-syntax-selection-color-selected: darken(#754e70, 10%);
+@theme-main-syntax-selection-color: lighten(#024707, 10%);
+@theme-main-syntax-selection-color-selected: darken(#4e7555, 10%);
+
+@theme-main-syntax-highlight-color: fade(spin(@theme-syntax-main-color, 90), 80%);
 
 @theme-main-syntax-gutter-text-color: lighten(#72B4B8, 10%);
 

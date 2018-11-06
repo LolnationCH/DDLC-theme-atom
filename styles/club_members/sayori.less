@@ -55,21 +55,21 @@
 @overlay-border-color:             @base-border-color;
 
 // Buttons
-@button-background-color:          darken(@theme-ui-color-1, 65%);
+@button-background-color:          darken(@theme-ui-color-1, 35%);
 @button-background-color-hover:    lighten(@button-background-color, 12%);
 @button-background-color-selected: @button-background-color-hover;
 @button-border-color:              @base-border-color;
 
 // Tabs
 @tab-color:                   @theme-ui-color-1;
-@tab-bar-background-color:    @base-background-color;
+@tab-bar-background-color:    fade(spin(@base-background-color, -30), 100%);
 @tab-bar-border-color:        @base-border-color;
-@tab-background-color:        @base-background-color;
+@tab-background-color:        fade(spin(@base-background-color, -10), 80%);
 @tab-background-color-active: darken(@theme-ui-color-1, 20%);
 @tab-border-color:            @base-border-color;
 
 // Tree-view
-@tree-view-background-color:                @theme-ui-color-2;
+@tree-view-background-color:                fade(spin(@base-background-color, 15), 70%);
 @tree-view-border-color:                    @theme-ui-color-2;
 @tree-view-color:                           @theme-ui-color-1;
 @tree-view-list-item-selected-color :       @theme-ui-color-3;
@@ -87,6 +87,8 @@
 @theme-main-syntax-cursor-color: #8BD9D1;
 @theme-main-syntax-selection-color: lighten(#62333b, 10%);
 @theme-main-syntax-selection-color-selected: darken(#754e70, 10%);
+
+@theme-main-syntax-highlight-color: fade(spin(@theme-syntax-main-color, 10), 80%);
 
 @theme-main-syntax-gutter-text-color: lighten(#72B4B8, 10%);
 
