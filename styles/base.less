@@ -21,21 +21,27 @@ atom-pane {
   }
 }
 
-
-.scrollbars-visible-always /deep/ ::-webkit-scrollbar {
-  width: 8px;
-
-  &-track {
-    border-radius: 6px;
-    box-shadow: inset 0 0 10px @tree-view-list-item-selected-back-color;
+* ::-webkit-scrollbar-track {
+	background: fade(@tree-view-color, 10%);
+}
+* ::-webkit-scrollbar-thumb {
+	border-color: rgb(0, 0, 0, 0);
+	background: @tree-view-list-item-selected-back-color;
+	border-radius:10px;
+  &:window-inactive {
+    background-color: #FF021A;
   }
+}
+* ::-webkit-scrollbar-corner {
+	background: fade(@tree-view-color, 10%);
+}
 
-  &-thumb {
-    background-color: @tree-view-color;
-    border-radius: 6px;
+* ::-webkit-scrollbar {
+	width:6px;
+	height:5px;
+}
 
-    &:window-inactive {
-      background-color: #FF021A;
-    }
-  }
+* ::-webkit-scrollbar-thumb {
+	border:none;
+	background: @tree-view-list-item-selected-back-color;
 }

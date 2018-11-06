@@ -39,19 +39,20 @@
 .btn-color(@bg) {
   color: @text-color;
   background-color: @bg;
+
   &:hover,
   &:focus {
-    background-color: lighten(@bg, 1%);
+    background-color: lighten(@bg, 8%);
   }
   &:active {
-    background-color: darken(@bg, 1%);
+    background-color: darken(@bg, 2%);
   }
   &.selected {
-    background-color: lighten(@bg, 1%);
+    background-color: lighten(@bg, 8%);
   }
   &.selected:focus,
   &.selected:hover {
-    background-color: lighten(@bg, 100%);
+    background-color: lighten(@bg, 8%);
   }
 }
 
@@ -59,5 +60,5 @@
 // Button Group -----------------------
 
 .btn-group > .btn {
-  border-color: hsla(0,0%,0%,.2);
+  border-color: rgba(0, 0, 0, 0.2);
 }
