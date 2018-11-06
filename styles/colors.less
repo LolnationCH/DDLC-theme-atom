@@ -1,0 +1,23 @@
+// These colors are specific to the theme. Do not use in a package!
+
+@very-light-gray: #c5c8c6;
+@light-gray: #969896;
+@gray: #373b41;
+@dark-gray: #282a2e;
+@very-dark-gray: #1d1f21;
+
+@white: white;
+@cyan: #8abeb7;
+@blue: #0c87f0;
+@purple: #f17af4;
+@green: #6af173;
+@red: #cc6666;
+@orange: #ffa669;
+@light-orange: #f0c674;
+
+//DDLC color scheme
+@image_directory: "https://i.imgur.com/";
+@club_members: "monika", "natsuki", "sayori", "yuri";
+@current_member: "natsuki";//extract(@club_members, 4); this should work, but doesnt for some reason
+
+@import "club_members/@{current_member}.less";

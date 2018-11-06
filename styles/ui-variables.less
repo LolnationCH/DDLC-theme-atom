@@ -7,75 +7,7 @@
 
 // Overrides: atom/static/variables/ui-variables.less
 
-// Main colors
-@color-1: #e9b9fa; // Main color for background, component selected
-@color-2: fade(#120021, 40%); // Main color for background
-@color-3: #ffffff; // Main color for text
-
-// Base colors
-@base-background-color: @color-2;
-@base-border-color:     darken(@base-background-color, 8%);
-
-// Text Colors
-@text-color:               @color-3;
-@text-color-subtle:        @color-3;
-@text-color-highlight:     @color-3;
-@text-color-selected:      @color-3;
-
-@text-color-info:          #7efb1d;
-@text-color-success:       #73c990;
-@text-color-warning:       #e2c08d;
-@text-color-error:         #ff6347;
-
-// Background colors
-@background-color-info:    #4F3E86;
-@background-color-success: #1c9c71;
-@background-color-warning: #cc8533;
-@background-color-error:   #d92626;
-
-@background-color-highlight:  lighten(@base-background-color, 5%);
-@background-color-selected:   lighten(@base-background-color, 10%);
-@app-background-color:        darken(@base-background-color, 5%);
-
-// Component colors
-@pane-item-background-color:  @base-background-color;
-@pane-item-border-color:      @base-border-color;
-
-@input-background-color:      @app-background-color;
-@input-border-color:          @base-border-color;
-
-@tool-panel-background-color: @base-background-color;
-@tool-panel-border-color:     @base-border-color;
-
-@inset-panel-background-color:     lighten(@base-background-color, 4%);
-@inset-panel-border-color:         @base-border-color;
-
-@panel-heading-background-color:   lighten(@base-background-color, 4%);
-@panel-heading-border-color:       @base-border-color;
-
-@overlay-background-color:         lighten(@base-background-color, 5%);
-@overlay-border-color:             @base-border-color;
-
-// Buttons
-@button-background-color:          darken(@color-1, 65%);
-@button-background-color-hover:    lighten(@button-background-color, 12%);
-@button-background-color-selected: @button-background-color-hover;
-@button-border-color:              @base-border-color;
-
-// Tabs
-@tab-color:                   @color-1;
-@tab-bar-background-color:    @base-background-color;
-@tab-bar-border-color:        @base-border-color;
-@tab-background-color:        @base-background-color;
-@tab-background-color-active: darken(@color-1, 20%);
-@tab-border-color:            @base-border-color;
-
-// Tree-view
-@tree-view-background-color:                @color-2;
-@tree-view-border-color:                    @color-2;
-@tree-view-color:                           @color-1;
-@tree-view-list-item-selected-color :       @color-3;
-@tree-view-list-item-selected-back-color :  darken(@color-1, 20%);
+@import "colors";
 
 // Sizes
 @font-size:       12px;
@@ -90,9 +22,9 @@
 @tab-height:             40px;
 
 // Site colors
-@ui-site-color-1: #0088ff;
-@ui-site-color-2: #20b684;
-@ui-site-color-3: #cc8533;
+@ui-site-theme-ui-color-1: #0088ff;
+@ui-site-theme-ui-color-2: #20b684;
+@ui-site-theme-ui-color-3: #cc8533;
 @ui-site-color-4: #D831B0;
 @ui-site-color-5: #EBDD5B;
 

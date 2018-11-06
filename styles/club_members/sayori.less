@@ -1,0 +1,93 @@
+// Definition of color for sayori
+// -------------------
+
+// -------------------
+// UI
+// -------------------
+@theme-ui-color-1: #497DE7; // Main color for background, component selected
+@theme-ui-color-2: fade(#26427c, 20%); // Main color for background
+@theme-ui-color-3: #ffffff; // Main color for text
+
+// Base colors
+@base-background-color: @theme-ui-color-2;
+@base-border-color:     darken(@base-background-color, 8%);
+
+// Text Colors
+@text-color:               @theme-ui-color-3;
+@text-color-subtle:        @theme-ui-color-3;
+@text-color-highlight:     @theme-ui-color-3;
+@text-color-selected:      @theme-ui-color-3;
+
+@text-color-info:          #7efb1d;
+@text-color-success:       #73c990;
+@text-color-warning:       #e2c08d;
+@text-color-error:         #ff6347;
+
+// Background colors
+@background-color-info:    #4F3E86;
+@background-color-success: #1c9c71;
+@background-color-warning: #cc8533;
+@background-color-error:   #d92626;
+
+@background-color-highlight:  lighten(@base-background-color, 5%);
+@background-color-selected:   lighten(@base-background-color, 10%);
+@app-background-color:        darken(@base-background-color, 5%);
+
+@tooltip-background-color: @theme-ui-color-1;
+
+// Component colors
+@pane-item-background-color:  @base-background-color;
+@pane-item-border-color:      @base-border-color;
+
+@input-background-color:      @app-background-color;
+@input-border-color:          @base-border-color;
+
+@tool-panel-background-color: @base-background-color;
+@tool-panel-border-color:     @base-border-color;
+
+@inset-panel-background-color:     lighten(@base-background-color, 4%);
+@inset-panel-border-color:         @base-border-color;
+
+@panel-heading-background-color:   lighten(@base-background-color, 4%);
+@panel-heading-border-color:       @base-border-color;
+
+@overlay-background-color:         lighten(@base-background-color, 5%);
+@overlay-border-color:             @base-border-color;
+
+// Buttons
+@button-background-color:          darken(@theme-ui-color-1, 65%);
+@button-background-color-hover:    lighten(@button-background-color, 12%);
+@button-background-color-selected: @button-background-color-hover;
+@button-border-color:              @base-border-color;
+
+// Tabs
+@tab-color:                   @theme-ui-color-1;
+@tab-bar-background-color:    @base-background-color;
+@tab-bar-border-color:        @base-border-color;
+@tab-background-color:        @base-background-color;
+@tab-background-color-active: darken(@theme-ui-color-1, 20%);
+@tab-border-color:            @base-border-color;
+
+// Tree-view
+@tree-view-background-color:                @theme-ui-color-2;
+@tree-view-border-color:                    @theme-ui-color-2;
+@tree-view-color:                           @theme-ui-color-1;
+@tree-view-list-item-selected-color :       @theme-ui-color-3;
+@tree-view-list-item-selected-back-color :  darken(@theme-ui-color-1, 20%);
+
+
+// -------------------
+// Syntax
+// -------------------
+@theme-syntax-main-color: #497DE7;
+@theme-syntax-main-darken-color: #3E5B95;
+
+// Specific
+@theme-main-syntax-text-color: #ffffff;
+@theme-main-syntax-cursor-color: #8BD9D1;
+@theme-main-syntax-selection-color: lighten(#62333b, 10%);
+@theme-main-syntax-selection-color-selected: darken(#754e70, 10%);
+
+@theme-main-syntax-gutter-text-color: lighten(#72B4B8, 10%);
+
+@theme-main-background-image: "@{image_directory}b3TooBz.png";
