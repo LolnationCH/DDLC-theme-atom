@@ -1,13 +1,14 @@
 {
   "name": "DDLC-ui",
   "theme": "ui",
-  "version": "0.0.0",
-  "description": "A short description of your UI theme",
+  "version": "0.0.1",
+  "description": "UI theme made based on the game DDLC",
   "keywords": [
     "ui",
-    "theme"
+    "theme",
+    "DDLC"
   ],
-  "repository": "https://github.com/atom-community/ui-theme-template",
+  "repository": "https://github.com/LolnationCH/DDLC-ui",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
