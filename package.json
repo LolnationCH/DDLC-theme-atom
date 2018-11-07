@@ -8,7 +8,7 @@
     "theme",
     "DDLC"
   ],
-  "repository": "https://github.com/LolnationCH/DDLC-ui",
+  "repository": "https://github.com/LolnationCH/DDLC-theme-atom",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
