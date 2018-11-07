@@ -4,7 +4,7 @@ Atom theme made based on the game Doki Doki Literature Club (DDLC). All assets (
 
 To change the club member, you have to go to `styles/colors.less`, and change the value of `@current_member` to one of the value in `@club_members`.
 
-Have a different scheme for all the members :
+Have a different color scheme for all the members :
 ## Monika
 ![Monika Theme](https://i.imgur.com/6PegmHi.png)
 
